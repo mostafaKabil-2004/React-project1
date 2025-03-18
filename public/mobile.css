@@ -1,0 +1,80 @@
+.show-when-mobile-screen {
+  display: block;
+}
+
+.hide-when-mobile-screen {
+  display: none;
+}
+input {
+  display: none;
+}
+
+.main-div {
+  box-shadow: 0 0 20px black;
+  border-radius: 30px;
+  margin: 10px 10px 10px;
+}
+
+.fa-bars {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 30px;
+  transform: scaleX(1.3);
+  cursor: pointer;
+}
+
+.show-onclick {
+  display: none;
+}
+
+#bar:checked + .show-onclick {
+  display: block;
+}
+
+.sub-div {
+  display: none;
+}
+
+#html:checked + .sub-div,
+#css:checked + .sub-div,
+#js:checked + .sub-div {
+  display: block;
+}
+
+.checkbox {
+  font-size: 22px;
+  padding: 20px;
+  display: block;
+}
+
+.checkbox:hover,
+label i:hover,
+.sub-div li a:hover {
+  color: cyan;
+  letter-spacing: 2px;
+}
+
+.sub-div li a {
+  display: block;
+}
+
+.fa-solid {
+  font-size: 23px;
+  position: absolute;
+  right: 10vh;
+  cursor: pointer;
+}
+
+.sub-div li {
+  padding: 10px 0 10px 40px;
+}
+
+.sub-sub-div {
+  display: none;
+  margin-top: 17px;
+}
+
+#mini:checked + .sub-sub-div {
+  display: block;
+}
