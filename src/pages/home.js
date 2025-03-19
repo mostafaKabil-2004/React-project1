@@ -1,4 +1,4 @@
-function App() {
+function Home() {
   return (
     <>
     <header className="hide-when-mobile-screen">
@@ -173,4 +173,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

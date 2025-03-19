@@ -1,4 +1,4 @@
-function App() {
+function Css() {
   return (
     <>
     <header className="hide-when-mobile-screen">
@@ -162,7 +162,7 @@ function App() {
       </div>
     </header>
     <main>
-    Home Page
+    CSS Page
     </main>
     <footer>
       Designed and Devoloped By Web devs
@@ -173,4 +173,4 @@ function App() {
   );
 }
 
-export default App;
+export default Css;
