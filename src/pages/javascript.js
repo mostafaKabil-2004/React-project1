@@ -1,12 +1,13 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import MainContent from "../comp/MainContent";
 
 function Javascript() {
   return (
     <>
       <Header />
 
-      <main>Javascript Page</main>
+      <MainContent  NamePage="Javascript Page" />
 
       <Footer/>
     </>

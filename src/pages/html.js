@@ -1,5 +1,6 @@
 import Header from '../comp/header';
 import Footer from '../comp/footer';
+import MainContent from "../comp/MainContent";
 
 function Html() {
   return (
@@ -7,9 +8,7 @@ function Html() {
 
     <Header/>
 
-    <main>
-    HTML Page
-    </main>
+    <MainContent  NamePage="HTML Page" />
 
     <Footer/>
 
