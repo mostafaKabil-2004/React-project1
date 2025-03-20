@@ -1,10 +1,4 @@
-.show-when-mobile-screen {
-  display: block;
-}
 
-.hide-when-mobile-screen {
-  display: none;
-}
 input {
   display: none;
 }

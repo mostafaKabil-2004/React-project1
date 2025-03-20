@@ -1,0 +1,16 @@
+/* Header Of Mobile */
+.show-when-mobile-screen {
+  display: none;
+}
+
+/* show when mobile  */
+
+@media (max-width:600px) {
+  .show-when-mobile-screen {
+  display: block;
+}
+
+.hide-when-mobile-screen {
+  display: none;
+}
+}

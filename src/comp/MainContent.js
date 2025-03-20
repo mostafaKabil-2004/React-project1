@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './mainContent.css'
 const MainContent = ({NamePage}) => {
   return (
 
