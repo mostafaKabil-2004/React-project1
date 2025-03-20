@@ -15,7 +15,7 @@ import JavaScript from './pages/javascript';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/React-ptoject1",
     element: <Home/>,
     errorElement : <h1 style={{backgroundColor: 'red', textAlign: 'center'}}> Sorry the Page Not Found</h1>
   },

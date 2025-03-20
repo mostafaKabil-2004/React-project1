@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <>
 
-    <header className="hide-when-mobile-screen teal">
+    <header className="hide-when-mobile-screen">
     <h1>
-    <Link to="/">Web Devs</Link>
+    <Link to="/React-ptoject1">Web Devs</Link>
     </h1>
     <ul className="flex">
       <li className="main-list">
