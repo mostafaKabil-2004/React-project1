@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
 
-    <header className="hide-when-mobile-screen">
+    <header className="hide-when-mobile-screen teal">
     <h1>
     <Link to="/">Web Devs</Link>
     </h1>
